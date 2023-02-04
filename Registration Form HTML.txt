@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>Registration Form</title>
+	</head>
+	<body>
+		<h1 style=text-align:center>Registration Form in HTML</h1>
+	</body>
+	<form>
+		<table>
+			<tr>
+				<td>
+					Name :
+				</td>
+				<td>
+				<input type="text" placeholder="Name" name="">
+			</td>
+			</tr>
+<tr>
+		<td>
+		Phone Number :
+		</td>
+		<td>
+		<input type="Phone" placeholder="9822***" name="">
+</td>
+
+</tr>
+<tr>
+	<td>
+		Email Id :
+	</td>
+	<td>
+		<input type="email" placeholder="abc@gmail.com" name="">
+	</td>
+</tr>
+<tr>
+	<td>
+		Password :
+	</td>
+	<td>
+		<input type="Password" placeholder="Password" name="">
+	</td>
+</tr>
+<tr>
+	<td>
+		Gender :
+	</td>
+	<td>
+		<input type="radio" name="gender">Male
+		<input type="radio" name="gender">Female
+	</td>
+</tr>
+<tr>
+	<td>
+		Date of Birth :
+	</td>
+	<td>
+		<input type="Date">
+	</td>
+</tr>
+<tr>
+	<td>
+		Education Qualification :
+	</td>
+	<td>
+		<select>
+			<option>Select Option</option>
+			<option>BE</option>
+			<option>B. Tech</option>
+			<option>Civil</option>
+			<option>Mechanical</option>
+			<option>Architech</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>
+		Hobbies :
+	</td>
+	<td>
+		<input type="checkbox"Singing>Singing
+		<input type="checkbox"Dancing>Dancing
+		<input type="checkbox"Paintaing>Paintaing
+		<input type="checkbox"Reading>Reading
+	</td>
+</tr>
+<tr>
+	<td>
+		Address :
+	</td>
+	<td>
+		<textarea rows="5" col="15" placeholder="address"></textarea>
+	</td>
+</tr>
+<tr>
+	<td>
+		<input type="Submit" value="Submit" name="">
+		
+		<input type="Reset" value="Reset" name="">
+	</td>
+</tr>
+			
+		
+				
+		</table>
+	</form>
+</html>
